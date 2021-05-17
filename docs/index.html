@@ -1,0 +1,312 @@
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+<title>おすすめ施術診断</title>
+<meta name="outbrain-crawl" content="no-rec">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="css/reset.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<header id="commonHeader">
+<section id="flowsHead" class="wf-mplus1p">あなたおすすめの施術が１分でわかる</section>
+<section id="flows" class="wf-mplus1p">〇〇診断</section>
+</header>
+
+<div id="wrapper">
+    <main>
+        <article id="pageBody">
+
+            <div class="point_box">
+            <div class="box">
+            <div class="">
+            <p>&emsp;１分だけ下記の質問に答えてみてください。<br>&emsp;ぴったりの〇〇施術がわかります！</p>
+            </div>
+            </div>
+            </div>
+            <ul class="qalist wf-mplus1p">
+
+            <li id="1" class="question">
+                <a name="#1"></a>
+                <div class="qbox"><span  class="q">Q.</span>あなたは〇〇ですか?</div>
+                <div class="qabox">
+                    <a href="#2" onclick="show(2)" class="qabtn"><div class="btnBox btnBox_1">１</div></a>
+                    <a href="#3" onclick="show(3)" class="qabtn"><div class="btnBox btnBox_2">２</div></a>
+                    <a href="#4" onclick="show(4)" class="qabtn"><div class="btnBox btnBox_3">３</div></a>
+                    <a href="#5" onclick="show(5)" class="qabtn"><div class="btnBox btnBox_4">４</div></a>
+                </div>
+            </li>
+            <li id="2" class="question" style="display:none;">
+                <a name="#"></a>
+                <div class="qbox"><span  class="q">Q.</span>あなたは〇〇ですか?</div>
+                <div class="qabox">
+                    <a href="#101" onclick="show(101)" class="qabtn"><div class="btnBox btnBox_1">１</div></a>
+                    <a href="#102" onclick="show(102)" class="qabtn"><div class="btnBox btnBox_2">２</div></a>
+                    <a href="#103" onclick="show(103)" class="qabtn"><div class="btnBox btnBox_3">３</div></a>
+                    <a href="#104" onclick="show(104)" class="qabtn"><div class="btnBox btnBox_4">４</div></a>
+                </div>
+            </li>
+            <li id="3" class="question" style="display:none;">
+                <a name="#"></a>
+                <div class="qbox"><span  class="q">Q.</span>あなたは〇〇ですか?</div>
+                <div class="qabox">
+                    <a href="#105" onclick="show(105)" class="qabtn"><div class="btnBox btnBox_1">１</div></a>
+                    <a href="#106" onclick="show(106)" class="qabtn"><div class="btnBox btnBox_2">２</div></a>
+                    <a href="#107" onclick="show(107)" class="qabtn"><div class="btnBox btnBox_3">３</div></a>
+                    <a href="#108" onclick="show(108)" class="qabtn"><div class="btnBox btnBox_4">４</div></a>
+                </div>
+            </li>
+            <li id="4" class="question">
+                <a name="#1"></a>
+                <div class="qbox"><span  class="q">Q.</span>あなたは〇〇ですか?</div>
+                <div class="qabox">
+                    <a href="#109" onclick="show(109)" class="qabtn"><div class="btnBox btnBox_1">１</div></a>
+                    <a href="#110" onclick="show(110)" class="qabtn"><div class="btnBox btnBox_2">２</div></a>
+                    <a href="#111" onclick="show(111)" class="qabtn"><div class="btnBox btnBox_3">３</div></a>
+                    <a href="#112" onclick="show(112)" class="qabtn"><div class="btnBox btnBox_4">４</div></a>
+                </div>
+            </li>
+            <li id="5" class="question" style="display:none;">
+                <a name="#"></a>
+                <div class="qbox"><span  class="q">Q.</span>あなたは〇〇ですか?</div>
+                <div class="qabox">
+                    <a href="#113" onclick="show(113)" class="qabtn"><div class="btnBox btnBox_1">１</div></a>
+                    <a href="#114" onclick="show(114)" class="qabtn"><div class="btnBox btnBox_2">２</div></a>
+                    <a href="#115" onclick="show(115)" class="qabtn"><div class="btnBox btnBox_3">３</div></a>
+                    <a href="#116" onclick="show(116)" class="qabtn"><div class="btnBox btnBox_4">４</div></a>
+                </div>
+            </li>
+
+
+            </ul>
+
+            <div class="answerList">
+                <div id="101" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術１</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="102" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術２</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="103" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術３</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="104" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術４</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="105" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術５</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="106" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術６</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="107" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術７</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="108" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術８</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="109" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術９</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="110" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術10</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="111" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術11</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="112" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術12</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="113" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術13</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="114" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術14</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="115" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術15</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div id="116" style="display:none;" class="answer point_box">
+                    <div class="box">
+                        <div class="title">
+                        <p>あなたにおすすめの施術は<span class="fs-18"><span class="bg-y">施術16</span></span>です！</p>
+                        </div>
+                    <div class="txt">
+                        <div class="img">(写真)<img src="" placeholder="写真"></div>
+                        <p>〇〇についての説明1</p>
+                        <p>〇〇についての説明2</p>
+                        <p><a href="#" class="square_btn">もっと詳しくみる</a></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
